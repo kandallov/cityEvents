@@ -17,7 +17,7 @@ public enum EventRoute: APIRoute {
     }
     
     public var token: String {
-        return "L3YCIOR554K7WFMI6I6L"
+        return "xxxxxxxxxxxxxxxxxxx"
     }
     
     public var path: String {

@@ -250,9 +250,9 @@
 		506F0F522276D329000FE424 /* CityEventsUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				506F0F532276D329000FE424 /* Cells */,
-				506F0F5B2276D329000FE424 /* Support */,
 				506F0F5F2276D329000FE424 /* Base */,
+				506F0F5B2276D329000FE424 /* Support */,
+				506F0F532276D329000FE424 /* Cells */,
 			);
 			path = CityEventsUIKit;
 			sourceTree = "<group>";
@@ -297,11 +297,11 @@
 		506F0F662276D329000FE424 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				506F0F6B2276D329000FE424 /* Routes */,
 				506F0F672276D329000FE424 /* APISessionDelegate.swift */,
 				506F0F682276D329000FE424 /* APIProvider.swift */,
 				506F0F692276D329000FE424 /* APIProvider+Rx.swift */,
 				506F0F6A2276D329000FE424 /* ApiConfig.swift */,
-				506F0F6B2276D329000FE424 /* Routes */,
 				506F0F6D2276D329000FE424 /* APIRoute.swift */,
 			);
 			path = Networking;
@@ -326,8 +326,8 @@
 		506F0F702276D329000FE424 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				506F0F712276D329000FE424 /* Coordinators */,
 				506F0F752276D329000FE424 /* BaseCoordinator */,
+				506F0F712276D329000FE424 /* Coordinators */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -375,11 +375,11 @@
 			isa = PBXGroup;
 			children = (
 				506F0F7E2276D329000FE424 /* tableData */,
-				506F0F7D2276D329000FE424 /* EventDetailsViewModel.swift */,
 				506F0F832276D329000FE424 /* EventDetails+Structures.swift */,
 				506F0F842276D329000FE424 /* EventDetailsConfigurator.swift */,
-				506F0F852276D329000FE424 /* EventDetailsView.swift */,
+				506F0F7D2276D329000FE424 /* EventDetailsViewModel.swift */,
 				506F0F862276D329000FE424 /* EventDetailsViewController.swift */,
+				506F0F852276D329000FE424 /* EventDetailsView.swift */,
 			);
 			path = EventDetails;
 			sourceTree = "<group>";
@@ -407,11 +407,11 @@
 			isa = PBXGroup;
 			children = (
 				506F0F8C2276D329000FE424 /* tableData */,
+				506F0F902276D329000FE424 /* Events+Structures.swift */,
+				506F0F8E2276D329000FE424 /* EventsConfigurator.swift */,
 				506F0F8A2276D329000FE424 /* EventsViewModel.swift */,
 				506F0F8B2276D329000FE424 /* EventsViewController.swift */,
-				506F0F8E2276D329000FE424 /* EventsConfigurator.swift */,
 				506F0F8F2276D329000FE424 /* EventsView.swift */,
-				506F0F902276D329000FE424 /* Events+Structures.swift */,
 			);
 			path = Events;
 			sourceTree = "<group>";
